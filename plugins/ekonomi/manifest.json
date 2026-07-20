@@ -3,11 +3,11 @@
     "description": "/günlük ile coin kazan, /bakiye ile bak. Tamamen yerel, sadece sende.",
     "authors": [
         {
-            "name": "You!",
+            "name": "leoxs.jk",
             "id": "YOUR_ID_HERE"
         }
     ],
-    "main": "src/index.ts",
+    "main": "index.js",
     "vendetta": {
         "icon": "ic_badge_staff"
     }
