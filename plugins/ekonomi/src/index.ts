@@ -15,7 +15,7 @@ let unregisterBalance: () => void;
 export default {
     onLoad: () => {
         unregisterDaily = registerCommand({
-            name: "günlük",
+            name: "gunluk",
             displayName: "günlük",
             description: "Günlük coin ödülünü al",
             displayDescription: "Günlük coin ödülünü al",
