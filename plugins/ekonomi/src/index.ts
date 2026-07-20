@@ -9,16 +9,16 @@ export default {
     onLoad: () => {
         unregisterDaily = registerCommand({
             name: "gunluk",
-            displayName: "günlük",
-            description: "Günlük coin ödülünü al",
-            displayDescription: "Günlük coin ödülünü al",
+            displayName: "gunluk",
+            description: "Daily coin reward",
+            displayDescription: "Daily coin reward",
             inputType: ApplicationCommandInputType.BUILT_IN,
             type: ApplicationCommandType.CHAT,
             applicationId: "-1",
             options: [],
             execute: () => {
                 coins += 100;
-                return { content: `🪙 +100 coin! Toplam: ${coins}` };
+                return { content: "+100 coin! Total: " + coins };
             },
         });
     },
