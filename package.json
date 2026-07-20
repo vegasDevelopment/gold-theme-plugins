@@ -22,5 +22,9 @@
 				"react-native"
 			]
 		}
-	}
+	},
+	"onlyBuiltDependencies": [
+		"@swc/core",
+		"esbuild"
+	]
 }
